@@ -1,0 +1,40 @@
+/* style.css */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    place-items: center;
+    margin: 0;
+    font-family: "Euclid Circular A";
+    line-height: 1.5;
+    background-color: #24262a;
+    color: #f9f9f9;
+}
+
+
+.container {
+    display: flex;    
+    background-color: #666;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 0px;
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+div {
+    padding: 30px;
+}
+
